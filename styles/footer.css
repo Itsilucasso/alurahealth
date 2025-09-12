@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    padding: 1em;
+    background-color: var(--branco);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.item-label {
+    color: var(--cinza-escuro);
+    font-size: 12px;
+}
+
+.label--appointment {
+    font-size: 12px;
+    color: var(--azul);
+}

@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: var(--branco);
+}
+
+.clock {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+}
+
+.header__icons {
+    display: flex;
+    gap: 1em;
+}
+
+/* .header__icons img {
+    width:;
+    height:
+}

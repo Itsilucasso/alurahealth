@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+
+:root {
+    --fonte-principal: "Montserrat", sans-serif;
+    --cinza-claro: #ECECEC;
+    --cinza: #A3A3A3;
+    --cinza-escuro: #464646;
+    --azul: #4894FF;
+    --laranja: #FFB050;
+    --branco: #FFFFFF;
+    --rosa-claro: #EFF0F4;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    background-color: var(--rosa-claro);
+    color: var(--cinza-escuro);
+}
