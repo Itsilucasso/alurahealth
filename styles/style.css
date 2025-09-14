@@ -18,4 +18,5 @@ body {
     font-size: 14px;
     background-color: var(--rosa-claro);
     color: var(--cinza-escuro);
+    margin-bottom: 5em;
 }
