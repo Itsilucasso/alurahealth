@@ -1,9 +1,15 @@
 .footer {
     display: flex;
-    padding: 1em;
+    padding: 1em 0 1em 0;
     background-color: var(--branco);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    flex-wrap: wrap;
 }
 
 .footer__list {
