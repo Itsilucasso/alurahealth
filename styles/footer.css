@@ -35,3 +35,15 @@
     font-size: 12px;
     color: var(--azul);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .item-label {
+        font-size: 14px;
+    }
+
+    .footer__list {
+        justify-content: center;
+        gap: 3em;
+    }
+}
